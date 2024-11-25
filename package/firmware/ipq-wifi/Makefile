@@ -155,6 +155,7 @@ endef
 # Board files should follow this name structure:
 #   board-<devicename>.<qca4019|qca9888|qca9889|qca9984|qca99x0|ipq8074>
 
+$(eval $(call generate-ipq-wifi-package,brax_fa556,BRAX FA556))
 $(eval $(call generate-ipq-wifi-package,8devices_mango,8devices Mango))
 $(eval $(call generate-ipq-wifi-package,arcadyan_aw1000,Arcadyan AW1000))
 $(eval $(call generate-ipq-wifi-package,asus_rt-ax89x,Asus RT-AX89X))
