@@ -27,6 +27,7 @@ endef
 # <https://wireless.wiki.kernel.org/en/users/drivers/ath10k/boardfiles>
 
 ALLWIFIBOARDS:= \
+	brax_fa556 \
 	8devices_mango \
 	arcadyan_aw1000 \
 	asus_rt-ax89x \
